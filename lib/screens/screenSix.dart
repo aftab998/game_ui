@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:game_ui/screens/screenEight.dart';
 import 'package:game_ui/screens/screenSeven.dart';
 
 class sixthScreen extends StatefulWidget {
@@ -116,7 +117,7 @@ class _sixthScreenState extends State<sixthScreen> {
               padding: const EdgeInsets.all(8.0),
               child: InkWell(
                 onTap: (){
-                  Navigator.push(context, MaterialPageRoute(builder: (context)=>seventhScreen()));
+                  Navigator.push(context, MaterialPageRoute(builder: (context)=>eightScreen()));
                 },
                 child: Container(
 
